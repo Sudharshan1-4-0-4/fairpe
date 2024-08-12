@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template_1</title>
+    <style>
+        .main-container {
+            background-image: url("https://st3.depositphotos.com/1016231/36180/i/450/depositphotos_361805518-stock-photo-fashion-girl-guy-outlet-clothes.jpg");
+            height: 100vh;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .percentage-container {
+            color: white;
+            width: 50px;
+            height: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            border-radius: 50%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .percent {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .circle-container {
+            width: 210px;
+            background-color: white;
+            border-radius: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 1000;
+            margin-top: 5%;
+            background-color: rgb(153, 150, 150);
+            padding: 4px;
+        }
+
+        .fixed-bottom {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 1000;
+            background-color: rgb(153, 150, 150);
+            margin-bottom: 5%;
+            padding: 4px;
+        }
+
+        .fixed-left {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            writing-mode: vertical-rl;
+            margin-left: 5%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 1000;
+            padding: 4px;
+            background-color: rgb(153, 150, 150);
+        }
+
+        .fixed-right {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            writing-mode: vertical-rl;
+            margin-right: 5%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            z-index: 1000;
+            padding: 4px;
+            background-color: rgb(153, 150, 150);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="circle-container">
+            <p class="content">F L A S H</p>
+            <div class="percentage-container">
+                <span class="percent">99%</span>
+                <span>off</span>
+            </div>
+            <p class="content">S A L E</p>
+        </div>
+    </div>
+
+
+    <div class="fixed-top">samplewebsite.com</div>
+    <div class="fixed-bottom">samplewebsite.com</div>
+    <div class="fixed-left">samplewebsite.com</div>
+    <div class="fixed-right">samplewebsite.com</div>
+</body>
+
+</html>

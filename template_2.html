@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template_2</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+        }
+
+        .main-container {
+            background-image: url("https://s.tmimgcdn.com/scr/800x500/390800/premium-abstract-colorful-pink-gradient-background_390814-original.jpg");
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .logo {
+            background-color: yellow;
+            color: rgb(226, 127, 192);
+            text-align: center;
+            width: 150px;
+            margin: 20px auto;
+            position: relative;
+            transform: rotate(5deg);
+        }
+        .logo1{
+            background-color: yellow;
+            color: rgb(226, 127, 192);
+            text-align: center;
+            width: 150px;
+            margin: 20px auto;
+            position: relative;
+            transform: rotate(-5deg);
+        }
+        .days-left {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background-color: rgb(213, 38, 210);
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .percent {
+            color: white;
+            font-weight: bold;
+            font-size: 64px;
+            text-align: left;
+            margin: 0;
+        }
+
+        .image {
+            width: 200px;
+        }
+
+        .divide {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .one {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .one p {
+            margin: 0;
+            text-align: left;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="logo">
+            <div class="days-left">3 days left</div>
+            <h2>F L A S H</h2>
+        </div>
+
+        <div class="logo1">
+            <h2>S A L E</h2>
+        </div>
+
+        <div class="divide">
+            <div class="one">
+                <h2 class="percent">45% off</h2>
+                <p>samplewebsite.com</p>
+            </div>
+
+            <div>
+                <img src="https://s3-alpha-sig.figma.com/img/8861/525b/eae8a337adcd846f61f332dce9932c3f?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SGqSZ9kI9gGX7rn8g4rtAzEYUQPQX~Hrcg76~-zlnBQYyRahSpSzVorgS4Cr06H2H5mcMh75K6hf1t9h~TX1CiDjKbV09elSaYKsonDt4ljzN59oeRwaOuwSwj74ja1K-Ii1VcmxJ7dWMnnDQiZ-i2ueGex-cpc1VqobXIJpG9SJe1L1cvYuDq~5nNyYsqk8SmRyjIqwL6o88ytqgYBrsm17nV3-SPeYamxBxizyYrqLnvHBpDJdz1G1pB6YISTyFyUhIAUBJZCZdVGuEnojAWbI29p~TA6Eq64qVAVb0io0tFj266qhJIEnEyU0AAPNmU9Koy5L74Syas~UKxJTqw__"
+                    class="image" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
